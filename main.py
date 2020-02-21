@@ -4,7 +4,7 @@ import sys # For the exit command
 file_name = "./pi1000000.txt" # INPUT :: Insert the path to your own text file containing the number to scan
 starting_index = 1 # INPUT :: Insert the index you want our counting to begin with (The index of the tens place)
 
-if starting_index < 0 or int(starting_index) != startind_index:
+if starting_index < 0 or int(starting_index) != starting_index:
     print("Error: Invalid starting_index")
     sys.exit()
 
